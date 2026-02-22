@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>stchausson – Profile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="profile-card">
+    <div class="avatar" aria-hidden="true">ST</div>
+    <h1 class="name">stchausson</h1>
+    <p class="email">
+      <a href="mailto:stchausson@gmail.com">stchausson@gmail.com</a>
+    </p>
+
+    <form class="contact-form" action="mailto:stchausson@gmail.com" method="post" enctype="text/plain">
+      <h2 class="form-title">Send a message</h2>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required placeholder="Your subject" />
+      </div>
+      <div class="form-group">
+        <label for="body">Message</label>
+        <textarea id="body" name="body" rows="4" required placeholder="Your message"></textarea>
+      </div>
+      <button type="submit" class="send-btn">Send</button>
+    </form>
+  </main>
+</body>
+</html>
